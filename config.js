@@ -1,14 +1,14 @@
 module.exports = {
         px: '!',
-        playing: 'Umut Bayraktar ❤️ Müzik Botu',
+        playing: 'mzkbotu',
 
     opt: {
         DJ: {
-            enabled: false, //EĞER SADECE DJLER KULLANA BİLSİN İSTİYOR İSENİZ false yazanı true yapın.
-            roleName: 'DJ', //DJ ROLÜNÜN İSMİ NE OLACAK İSE YAZIN SUNUCUNUZDA O ROLDEKİLER KULLANA BİLİR
+            enabled: false, //değiştirme
+            roleName: 'DJ', //değiştime
             commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //DOKUNMA
         },
-        maxVol: 250, //maximum ses seviyesi kaç olacak belirte bilirsiniz.
+        maxVol: 250, //max ses ayarı
         loopMessage: false, //elleme
         discordPlayer: {
             ytdlOptions: {
