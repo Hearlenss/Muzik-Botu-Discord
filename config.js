@@ -5,8 +5,8 @@ module.exports = {
     opt: {
         DJ: {
             enabled: false, //değiştirme
-            roleName: 'DJ', //değiştime
-            commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'skip', 'stop', 'volume'] //DOKUNMA
+            roleName: 'mzkbot', //değiştime
+            commands: ['geridön', 'temizle', 'filtrele', 'döngüyeal', 'durdur', 'devam', 'geç', 'dur', 'ses'] //DOKUNMA
         },
         maxVol: 250, //max ses ayarı
         loopMessage: false, //elleme
