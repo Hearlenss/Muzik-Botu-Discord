@@ -3,7 +3,7 @@ module.exports = {
         playing: 'mzkbotu',
 
     opt: {
-        DJ: {
+        mzkbot: {
             enabled: false, //değiştirme
             roleName: 'mzkbot', //değiştime
             commands: ['geridön', 'temizle', 'filtrele', 'döngüyeal', 'durdur', 'devam', 'geç', 'dur', 'ses'] //DOKUNMA
